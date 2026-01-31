@@ -1,0 +1,132 @@
+export const loanAndCardData = [
+  {
+    imgUrl: '/pl.png',
+    title: 'Personal Loan',
+  },
+  {
+    imgUrl: '/bl.png',
+    title: 'Business Loan',
+  },
+  {
+    imgUrl: '/hl.png',
+    title: 'Home Loan',
+  },
+  {
+    imgUrl: '/gl.png',
+    title: 'Gold Loan',
+  },
+  {
+    imgUrl: '/cc.png',
+    title: 'Credit Cards',
+  },
+  {
+    imgUrl: '/lap.png',
+    title: 'Loan Against Property',
+  },
+]
+
+export const insuranceData = [
+  {
+    imgUrl: '/fp.png',
+    title: 'Financial Protect',
+  },
+  {
+    imgUrl: '/hc.png',
+    title: 'Health Care',
+  },
+  {
+    imgUrl: '/wc.png',
+    title: 'Women Care',
+  },
+  {
+    imgUrl: '/pc.png',
+    title: 'Pet Care',
+  },
+  {
+    imgUrl: '/vp.png',
+    title: 'Valuable Protect',
+  },
+  {
+    imgUrl: '/tp.png',
+    title: 'Travel Protect',
+  },
+]
+
+export const toolsAndServicesData = [
+  {
+    imgUrl: '/cs.png',
+    title: 'Free Credit Score',
+  },
+  {
+    imgUrl: '/emi.png',
+    title: 'EMI Calculator',
+  },
+  {
+    imgUrl: '/oc.png',
+    title: 'Other Calculators',
+  },
+]
+
+export const buddyLoanAdv = [
+  {
+    title: 'Loan Amount and Tenure',
+    description:
+      'Choose the loan amount of your choice, from ₹ 10000 to ₹ 15 lakhs for a tenure of 12 months to 5 years starting @ 11.99% p.a.',
+    ctaText: 'Know More',
+    link: '/personal-loan',
+  },
+  {
+    title: 'Highest Loan Approval Rate',
+    description:
+      'We have the highest loan approval rate in the industry, thanks to our wide pool of loan providers.',
+    ctaText: 'Know More',
+    link: '/loan-approval',
+  },
+  {
+    title: 'Quick Sanction',
+    description:
+      'Get your loan approved within 48 hours of submitting your application. It’s really quick and hassle-free.',
+    ctaText: 'Know More',
+    link: '/quick-loan',
+  },
+  {
+    title: 'Collateral-Free Loans',
+    description:
+      'We offer loans with minimal documentation based on your credit history and require no pledges for security.',
+    ctaText: 'Know More',
+    link: '/collateral-free-loans',
+  },
+  {
+    title: 'Safe and Transparent',
+    description:
+      'Our platform is completely safe and secure and so are your details. Also, there are no hidden or pre-payment charges.',
+    ctaText: 'Know More',
+    link: '/safe-loans',
+  },
+]
+
+export const whyChooseUsData = [
+  {
+    value: '48+',
+    label: 'Lending\nPartners',
+  },
+  {
+    value: '2000+',
+    label: 'Pin Codes\nServed',
+  },
+  {
+    value: '150K+',
+    label: 'Loans Given',
+  },
+  {
+    value: '100Cr+',
+    label: 'Loans\nDisbursed',
+  },
+]
+
+export const heroBannerData = [
+  'Curated options from <br /> multiple lenders',
+  'Eligibility insights that <br /> work for you',
+  'Zero confusion <br /> zero hassle',
+  'Simple steps that make <br /> borrowing effortless',
+]
