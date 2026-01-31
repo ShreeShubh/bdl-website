@@ -1,4 +1,5 @@
 import { buddyLoanAdv } from '../../utils/data'
+import BLAdvantagesCarousel from './BLAdvantagesCarousel'
 import BuddyLoanAdvCard from './BuddyLoanAdvCard'
 
 const BLAdvantages = () => {
@@ -9,7 +10,7 @@ const BLAdvantages = () => {
           Buddy Loan Advantages
         </h2>
 
-        <div className="flex justify-between">
+        {/* <div className="flex flex-col md:flex-row">
           {buddyLoanAdv.map((item, index) => (
             <BuddyLoanAdvCard
               key={index}
@@ -19,7 +20,9 @@ const BLAdvantages = () => {
               link={item.link}
             />
           ))}
-        </div>
+        </div> */}
+
+        <BLAdvantagesCarousel data={buddyLoanAdv} />
       </div>
     </section>
   )

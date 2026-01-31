@@ -18,21 +18,21 @@ import LatestBlogs from '../component/LatestBlogs/LatestBlogs'
 
 export default function Home() {
   return (
-    <div className="space-y-10">
+    <div className="space-y-10 overflow-hidden">
       <HeroBanner />
       <Stats />
-      <div className="space-y-3">
-        <ProductAndServices
-          showHeading={true}
-          title="Loans & Cards"
-          cardData={loanAndCardData}
-        />
-        {/* <ProductAndServices title="Insurance" cardData={insuranceData} /> */}
-        <ProductAndServices
-          title="Tools & Services"
-          cardData={toolsAndServicesData}
-        />
-      </div>
+
+      <ProductAndServices
+        showHeading={true}
+        title="Loans & Cards"
+        cardData={loanAndCardData}
+      />
+      <ProductAndServices title="Insurance" cardData={insuranceData} />
+      <ProductAndServices
+        title="Tools & Services"
+        cardData={toolsAndServicesData}
+      />
+
       <CheckYourEligibility />
 
       <GetLoanOnline />

@@ -6,13 +6,32 @@ const CheckYourEligibility = ({
 }) => {
   return (
     <div className="bg-[#021435]">
-      <div className="max-w-7xl mx-auto flex justify-between gap-5 items-center py-5 px-4">
-        <img src="/calc.png" width={100} height={100} alt="calculator" />
-        <p className="text-3xl text-white text-center font-bold">
+      <div
+        className="
+          max-w-7xl mx-auto
+          flex flex-col gap-4
+          sm:flex-row sm:justify-between sm:items-center
+          py-6 px-4
+          text-center sm:text-left
+        "
+      >
+        {/* Icon */}
+        <img
+          src="/calc.png"
+          width={80}
+          height={80}
+          alt="calculator"
+          className="mx-auto sm:mx-0"
+        />
+
+        {/* Text */}
+        <p className="text-xl sm:text-2xl lg:text-3xl text-white font-bold">
           Get Your Loan Eligibility Now!
         </p>
-        <Link href={url} target="_blank">
-          <button className="h-10 px-6 lg:px-12 bg-white text-[#021435] rounded-md font-semibold hover:bg-gray-100 transition whitespace-nowrap text-sm">
+
+        {/* CTA */}
+        <Link href={url} target="_blank" className="mx-auto sm:mx-0">
+          <button className="cursor-pointer h-10 px-6 lg:px-12 bg-white text-[#021435] rounded-md font-semibold hover:bg-gray-100 transition whitespace-nowrap text-sm">
             Check Your Eligibility
           </button>
         </Link>

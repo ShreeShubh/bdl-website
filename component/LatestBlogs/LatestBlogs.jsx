@@ -6,7 +6,7 @@ const LatestBlogs = () => {
     <section>
       <div className="max-w-7xl mx-auto text-[#021435] px-4">
         <h2 className="text-[#021435] text-3xl font-bold mb-7">
-          Personal Loan Blogs
+          Buddy Loan Blogs
         </h2>
 
         <LatestBlogsCards />

@@ -2,26 +2,32 @@ export const loanAndCardData = [
   {
     imgUrl: '/pl.png',
     title: 'Personal Loan',
+    link: '/personal-loan',
   },
   {
     imgUrl: '/bl.png',
     title: 'Business Loan',
+    link: '/business-loan',
   },
   {
     imgUrl: '/hl.png',
     title: 'Home Loan',
+    link: '/home-loan',
   },
   {
     imgUrl: '/gl.png',
     title: 'Gold Loan',
+    link: '/gold-loan',
   },
   {
     imgUrl: '/cc.png',
     title: 'Credit Cards',
+    link: '/credit-cards',
   },
   {
     imgUrl: '/lap.png',
     title: 'Loan Against Property',
+    link: '/loan-against-property',
   },
 ]
 
@@ -29,26 +35,32 @@ export const insuranceData = [
   {
     imgUrl: '/fp.png',
     title: 'Financial Protect',
+    link: '/financial-protect',
   },
   {
     imgUrl: '/hc.png',
     title: 'Health Care',
+    link: '/health-care',
   },
   {
     imgUrl: '/wc.png',
     title: 'Women Care',
+    link: '/women-care',
   },
   {
     imgUrl: '/pc.png',
     title: 'Pet Care',
+    link: '/pet-care',
   },
   {
     imgUrl: '/vp.png',
     title: 'Valuable Protect',
+    link: '/valuable-protect',
   },
   {
     imgUrl: '/tp.png',
     title: 'Travel Protect',
+    link: '/travel-protect',
   },
 ]
 
@@ -56,14 +68,17 @@ export const toolsAndServicesData = [
   {
     imgUrl: '/cs.png',
     title: 'Free Credit Score',
+    link: '/free-credit-score',
   },
   {
     imgUrl: '/emi.png',
     title: 'EMI Calculator',
+    link: '/emi-calculator',
   },
   {
     imgUrl: '/oc.png',
     title: 'Other Calculators',
+    link: '/other-calculators',
   },
 ]
 

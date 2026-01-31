@@ -8,9 +8,9 @@ const OurTrustedPartner = () => {
         <h2 className="text-[#021435] text-3xl font-semibold mb-7">
           Our Trusted Partners
         </h2>
-        <div className="space-y-7">
+        <div className="">
           <StaticLogoGrid />
-          <DraggableLogoCard />
+          {/* <DraggableLogoCard /> */}
         </div>
       </div>
     </section>

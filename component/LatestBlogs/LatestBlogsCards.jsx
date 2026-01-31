@@ -62,7 +62,7 @@ export default function LatestBlogsCards() {
       <div className="flex justify-center mt-10">
         <button
           onClick={() => router.push('/blog')}
-          className="px-10 py-3 border border-[#0B1B3F] rounded-lg font-medium hover:bg-[#0B1B3F] hover:text-white transition"
+          className="cursor-pointer px-10 py-3 border border-[#0B1B3F] rounded-lg font-medium hover:bg-[#0B1B3F] hover:text-white transition"
         >
           View All Blogs
         </button>
