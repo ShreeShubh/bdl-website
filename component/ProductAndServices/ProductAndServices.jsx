@@ -4,9 +4,9 @@ import LoanCard from './LoanCard'
 const ProductAndServices = ({ title, cardData, showHeading = false }) => {
   return (
     <section>
-      <div className="max-w-7xl mx-auto p-5">
+      <div className="max-w-7xl mx-auto px-4">
         {showHeading && (
-          <h2 className="text-[#021435] text-3xl font-bold mb-7">
+          <h2 className="text-[#021435] text-3xl font-bold mb-5">
             Products and Services
           </h2>
         )}

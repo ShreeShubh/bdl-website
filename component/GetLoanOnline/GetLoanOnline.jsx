@@ -3,7 +3,7 @@ import React from 'react'
 const GetLoanOnline = () => {
   return (
     <section>
-      <div className="max-w-7xl mx-auto text-[#021435] space-y-5">
+      <div className="max-w-7xl mx-auto text-[#021435] space-y-5 px-4">
         <h2 className="text-[#021435] text-3xl font-semibold">
           Get Loan Online In A Few Clicks
         </h2>

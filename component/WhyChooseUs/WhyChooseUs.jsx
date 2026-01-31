@@ -6,14 +6,14 @@ const WhyChooseUs = ({ data }) => {
         background: 'linear-gradient(180deg, #021435 0%, #021435 100%)',
       }}
     >
-      <div className="max-w-6xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4">
         {/* Heading */}
         <h2 className="text-center text-4xl font-semibold mb-12">
           Why Choose Us?
         </h2>
 
         {/* Circles */}
-        <div className="flex flex-wrap justify-center gap-10">
+        <div className="flex flex-wrap justify-center gap-14">
           {data.map((item, index) => (
             <div
               key={index}

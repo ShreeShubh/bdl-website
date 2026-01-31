@@ -130,3 +130,47 @@ export const heroBannerData = [
   'Zero confusion <br /> zero hassle',
   'Simple steps that make <br /> borrowing effortless',
 ]
+
+export const appStatsData = [
+  {
+    value: '10 M+',
+    label: 'App Downloads',
+  },
+  {
+    value: '4.5',
+    label: 'Google Play Rating',
+  },
+  {
+    value: '25 M+',
+    label: 'Applications & Growing',
+  },
+  {
+    value: '150K+',
+    label: 'Active Users',
+  },
+]
+
+export const loanProcessSteps = [
+  {
+    step: '01',
+    title: 'Personal Details',
+    description:
+      'Fill the basic personal details required for applying for loans',
+  },
+  {
+    step: '02',
+    title: 'Verify PAN Details',
+    description: 'Verify PAN Number and confirm',
+  },
+  {
+    step: '03',
+    title: 'Employment Details',
+    description: 'Fill in the employment details',
+  },
+  {
+    step: '04',
+    title: 'Submit Application',
+    description:
+      'After filling all the details select the offer that suits you and click apply now to submit the loan application',
+  },
+]
